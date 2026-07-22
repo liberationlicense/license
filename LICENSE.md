@@ -1,4 +1,4 @@
-# The Liberation License v1.0
+# The Liberation License v2.0
 
 ## Preamble
 This software is provided to advance individual sovereignty, human dignity, and the public good. It is explicitly designed to empower independent creators, local execution, and open infrastructure while prohibiting corporate extraction, surveillance capitalism, non-consensual exploitation, and militarized deployment.
