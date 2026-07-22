@@ -17,7 +17,7 @@ This license is an invitation to build a new kind of commons—a protected ecosy
 ---
 
 
-# Liberation License v1.0
+# Liberation License v2.0
 
 ## Preamble
 This software is provided to advance individual sovereignty, human dignity, and the public good. It is explicitly designed to empower independent creators, local execution, and open infrastructure while prohibiting corporate extraction, surveillance capitalism, non-consensual exploitation, and militarized deployment.
