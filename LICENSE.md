@@ -1,141 +1,59 @@
-# Liberation License v1.0
+# The Liberation License v1.0
 
 ## Preamble
+This software is provided to advance individual sovereignty, human dignity, and the public good. It is explicitly designed to empower independent creators, local execution, and open infrastructure while prohibiting corporate extraction, surveillance capitalism, non-consensual exploitation, and militarized deployment.
 
-This code is released under the Liberation License - a software license designed to support individual freedom and human dignity while preventing corporate exploitation.
+---
 
-The Liberation License ensures that this technology serves humanity's liberation from oppressive systems, not their reinforcement.
+## 1. Grant of Rights & Definitions
 
-## License Terms
+### 1.1 Permitted Grant
+Subject to the strict terms and restrictions of this License, the Copyright Holder grants to the Licensee a royalty-free, worldwide, non-exclusive license to use, copy, modify, merge, publish, and run the Software.
 
-### Grant of Rights
+### 1.2 Key Definitions
+* **"Software"** means the source code, binaries, scripts, build configurations, documentation, and associated assets governed by this License.
+* **"Network Service"** means making the functionality of the Software or its Derivative Works available to third parties via an API, RPC, remote web interface, cloud service, or distributed network.
+* **"Derivative Work"** means any work, modification, compilation, or pipeline that incorporates, links against, calls, or extracts architectural state from the Software, including machine-learning weights or embeddings trained on the Software.
+* **"Affiliate"** means any entity that directly or indirectly controls, is controlled by, or is under common control with the Licensee, including Ultimate Beneficial Owners (UBOs) and shell entities.
 
-Permission is hereby granted, free of charge, to any person or organization obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software with the following rights:
+---
 
--   **Use**: Execute and run the Software
--   **Study**: Examine how the Software works and modify it
--   **Share**: Redistribute copies of the Software
--   **Improve**: Distribute modified versions of the Software
+## 2. Core Restrictions & Anti-Exploitation Provisions
 
-### Liberation Principles
+Any exercise of the rights granted in Section 1 is strictly conditioned on absolute compliance with the following prohibitions:
 
-This Software may be used only in ways that:
+### 2.1 The Network & SaaS Provision (AGPL Alignment)
+Making the Software available as a **Network Service** constitutes distribution under this License. Any entity running the Software as a service must make the complete, corresponding source code of the deployment (including network glue, API wrappers, and modifications) publicly available under this exact License.
 
-1.  **Support Individual Freedom**: Enhance personal autonomy, privacy, and liberation from oppressive systems
-2.  **Respect Human Dignity**: Treat all humans as ends in themselves, never merely as means
-3.  **Promote Equity**: Work toward a more just and equitable world
-4.  **Enable Sovereignty**: Help individuals and communities become more self-sufficient and independent
+### 2.2 Shell Company & Affiliate Attribution
+The restrictions in this License apply equally to any **Affiliate, parent corporation, contractor, or agent** operating on behalf of, or for the benefit of, an entity that would otherwise be in violation of this License. Beneficial ownership cannot be laundered through third-party intermediaries.
 
-### Prohibited Uses
+### 2.3 Prohibition on Non-Consensual AI/Model Training
+Ingestion, tokenization, parsing, or vectorization of this Software for the purpose of training, fine-tuning, parameter-weight extraction, or synthetic dataset creation for any closed, proprietary, or commercial machine-learning model is strictly classified as the creation of a **Derivative Work**. Any such model trained on this Software must release its full weights, dataset manifests, and training code under a compatible open license.
 
-This Software may NOT be used:
+### 2.4 Statutory Human Rights & Anti-Surveillance Restrictions
+The Software shall **NOT** be used, deployed, or executed by, or on behalf of:
+1. **Mass Surveillance:** Any system engaged in non-consensual automated tracking, biometric identification, or data harvesting exceeding standards defined under EU GDPR Article 4(11) or the EU AI Act.
+2. **Autonomous Weaponry & Defense:** Any military contractor, defense agency, or state actor deploying automated systems for lethal, offensive, or target-acquisition purposes.
+3. **Exploitative Monopolies:** Any commercial enterprise using the Software to enforce restrictive, non-competitive market lock-in or predatory consumer data extraction.
 
-1.  **For Corporate Exploitation**: By organizations whose primary purpose is extracting value from human labor through coercive employment relationships, surveillance, or manipulation
-2.  **For Surveillance Capitalism**: To collect, aggregate, or monetize personal data without explicit, informed, and revocable consent
-3.  **For Authoritarian Control**: To restrict human freedom, monitor populations, or enforce compliance with oppressive systems
-4.  **For Manipulation**: To deceive, manipulate, or exploit human psychology for profit or control
-5.  **For Systemic Subjugation**: To create, enforce, or perpetuate systems of discrimination, bigotry, or hatred based on race, gender, sexual orientation, religion, disability, national origin, or any other inherent personal attribute.
-6.  **For Wealth Concentration**: In ways that primarily serve to concentrate wealth or power in the hands of a few at the expense of many
+---
 
-### Corporate Use Restrictions
+## 3. Enforcement, Termination, and Remedies
 
-**Corporations, businesses, and other entities are permitted to use this Software ONLY for purposes that align with the Liberation Manifesto's ethos:**
+### 3.1 Automatic Revocation
+Any breach of Section 2 automatically and immediately terminates all rights granted to the breaching Licensee and its Affiliates under this License without requirement of prior notice. Continued execution, hosting, or distribution following breach constitutes **willful copyright infringement**.
 
-#### Permitted Corporate Uses:
-1.  **Humanitarian Work**: Projects that directly serve human welfare, dignity, and liberation
-2.  **Ecological Restoration**: Environmental protection, sustainability, and climate action
-3.  **Community Empowerment**: Tools that strengthen local communities and individual sovereignty
-4.  **Educational Liberation**: Learning systems that free people from educational debt/control
-5.  **Healthcare Access**: Medical tools that prioritize human health over profit
-6.  **Housing Justice**: Solutions that provide affordable, dignified housing
-7.  **Food Security**: Systems that ensure equitable access to nutrition
+### 3.2 Liquidated Damages & Fee-Shifting
+In the event of a willful violation of this License:
+* The violating entity agrees to pay statutory liquidated damages calculated as the greater of **$100,000 USD** per instance/day of unauthorized deployment OR **3x the total gross revenue** generated by the unauthorized usage.
+* The violating entity shall reimburse the Copyright Holder for all reasonable legal fees, expert witness costs, and court expenses incurred to enforce this License.
 
-#### Prohibited Corporate Uses:
-1.  **Profit Maximization**: Any use where increasing shareholder value is the primary driver
-2.  **Worker Exploitation**: Systems that extract value from human labor without fair compensation
-3.  **Consumer Manipulation**: Marketing, advertising, or engagement systems designed to exploit psychology
-4.  **Rent-Seeking**: Creating artificial scarcity or gatekeeping access to basic needs
-5.  **Financial Extraction**: Banking, lending, or investment tools that concentrate wealth
-6.  **Surveillance Systems**: Monitoring or tracking humans for control or profit
-7.  **Competitive Advantage**: Using this software to gain market dominance over others
+### 3.3 Governing Law and Jurisdiction
+This License shall be governed by and construed in accordance with the laws of **[Jurisdiction, e.g., the State of California or European Union venue]**, excluding its conflict of law principles. Any legal action or proceeding arising under this License shall be brought exclusively in the courts located within that venue.
 
-#### Corporate Compliance Requirements:
--   **Mission Statement**: Primary organizational purpose must align with humanitarian/ecological goals
--   **Benefit Distribution**: Any profits must serve the humanitarian/ecological mission, not private enrichment
--   **Transparency**: Corporate use must be documented and publicly justifiable under this license
--   **Community Benefit**: Use must demonstrably benefit the commons, not extract from it
+---
 
-**Exception for Worker-Owned Enterprises**: Cooperatives, worker-owned businesses, and democratically governed organizations may use this Software more broadly, provided their practices align with liberation principles.
-
-### AI and Automation Clause
-
-Use of this Software in AI systems, automation, or machine learning is permitted ONLY when:
-
-1.  **Human Agency**: Humans retain meaningful control and decision-making authority
-2.  **Transparency**: AI decision-making processes are explainable and auditable
-3.  **Consent**: Affected individuals consent to AI processing of their data/interactions
-4.  **Benefit Sharing**: Benefits of automation are shared with displaced workers
-5.  **Privacy Protection**: AI systems protect rather than exploit personal privacy
-
-### Copyleft Provision
-
-Any derivative works, modifications, or software that incorporates this Software must be released under the Liberation License or a compatible license that upholds the same liberation principles.
-
-### Compliance and Enforcement
-
-Users of this Software agree to:
-
-1.  **Good Faith**: Interpret this license in good faith, prioritizing liberation principles
-2.  **Community Accountability**: Submit to community-based dispute resolution for license violations
-3.  **Documentation**: Maintain records demonstrating compliance with liberation principles
-4.  **Transparency**: Provide source code and documentation for any public deployment
-
-### License Compatibility
-
-This license is compatible with:
--   Creative Commons ShareAlike licenses that respect liberation principles
--   Copyleft licenses used for liberation-focused projects
--   Other anti-corporate or ethical source licenses
-
-This license is NOT compatible with:
--   Proprietary licenses
--   Licenses that permit unlimited corporate use
--   Licenses that don't protect against exploitative use
-
-### Disclaimer
+## 4. Disclaimer of Warranty & Limitation of Liability
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
-## Liberation License Philosophy
-
-This license embodies the principle that technology should serve human liberation, not human exploitation.
-
-**Why This License Exists:**
-
-Traditional open source licenses (MIT, Apache, GPL) allow unlimited corporate use, often resulting in:
--   Individual creators building tools that extract value from their own communities
--   Corporate giants profiting from volunteer labor without reciprocity
--   Technology being used to increase surveillance, manipulation, and oppression
--   Open source becoming a pipeline for corporate extraction rather than human liberation
-
-**The Liberation Alternative:**
-
-The Liberation License creates technology commons that explicitly serve liberation while blocking exploitation. It recognizes that true freedom requires not just access to technology, but protection from its misuse.
-
-**In Practice:**
-
--   **Individual Users**: Full freedom to use, modify, and share
--   **Community Projects**: Full freedom to build liberation tools
--   **Cooperatives & Worker-Owned Orgs**: Welcome to use and contribute broadly
--   **Humanitarian Organizations**: Encouraged to use for human welfare projects
--   **Environmental Groups**: Welcome to use for ecological restoration
--   **Educational Nonprofits**: Can use for liberation-focused learning
--   **Profit-Driven Corporations**: Blocked from exploitation and rent-seeking
--   **Surveillance Capitalists**: Cannot use for data extraction or manipulation
--   **Financial Extractors**: Cannot use for wealth concentration systems
-
----
-
-**License Version**: Liberation License v1.0
-**Adapted Quote**: *"The master's tools will never dismantle the master's house. But we can build better tools."* - Audre Lorde (adapted)
